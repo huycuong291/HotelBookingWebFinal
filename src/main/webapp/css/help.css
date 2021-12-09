@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {	
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #242424;
+}
+
+div#help {
+    margin-top: 100px;
+}
+
+.faq {
+	max-width: 1300px;
+    margin: 0px auto;
+    padding-left: 195px;
+    padding-right: 215px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.faq .faq-ask {
+	font-weight: 500;
+	font-size: 25px;
+	padding-bottom: 10px;
+	
+}
+
+.faq .faq-ans {
+	font-size: 16px;
+}
